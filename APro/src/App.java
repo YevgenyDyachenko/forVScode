@@ -8,5 +8,8 @@ public class App {
         int c = a + b;
         //print number c
         System.out.println(c);
+        Tm my = new Tm(9, " dd");
+
+        System.out.println(my.getM());
     }
 }
